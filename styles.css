@@ -48,14 +48,20 @@
 .innerCircle {
   top: 130px;
 }
-.stats img {
-  margin: 10px;
-}
+
 .stats h1 {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 48px;
+  font-size: 3.5vw;
   font-weight: 400;
   margin: 0;
+}
+.stats p {
+  font-size: 1.5vw;
+}
+.stats img {
+  width: 4vw;
+  height: 4vw;
+  margin: 10px;
 }
 @media (min-width: 1200px) {
   .navbarPagesList {
@@ -101,5 +107,8 @@
   }
   .outerCircle {
     width: 70%;
+  }
+  .stats img {
+    margin: 2px;
   }
 }
