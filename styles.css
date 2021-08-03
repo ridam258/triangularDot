@@ -178,6 +178,18 @@
 .contact {
   padding: 5rem 0;
 }
+.footer {
+  background-color: #3c3c3c;
+  color: white;
+  padding: 5rem 5rem 2rem;
+}
+.footer img {
+  margin: 5px;
+}
+.footer h5,
+.footer h4 {
+  margin-bottom: 15px;
+}
 @media (min-width: 1200px) {
   .navbarPagesList {
     align-items: center;
@@ -193,6 +205,26 @@
   }
   .contactRight {
     width: 80%;
+  }
+  .footer {
+    padding: 2rem 2rem 1rem;
+  }
+
+  .footer h5,
+  .footer h4 {
+    margin-bottom: 15px;
+    font-size: 2vw;
+  }
+  .footer p {
+    font-size: 1.5vw;
+  }
+  .follow img {
+    width: 25px;
+    height: 25px;
+  }
+  .downLogo {
+    width: 71px;
+    height: 28px;
   }
 }
 @media (max-width: 768px) {
@@ -301,5 +333,30 @@
   }
   .contactRight {
     padding: 2rem 0;
+  }
+  .footer h5,
+  .footer h4 {
+    margin-bottom: 10px;
+    font-size: 2.5vw;
+  }
+  .footer p {
+    margin: 5px 0;
+  }
+  .follow img {
+    width: 20px;
+    height: 20px;
+  }
+  .footer img {
+    margin: 2px;
+  }
+  .footer {
+    padding: 1rem;
+  }
+
+  .footer p {
+    font-size: 1.7vw;
+  }
+  .bottom p {
+    font-size: 2.5vw;
   }
 }
