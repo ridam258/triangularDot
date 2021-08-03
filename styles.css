@@ -1,0 +1,105 @@
+.buttonDesign {
+  background-color: orangered;
+  color: white;
+  border: 0px;
+  /* border-radius: 15pxs; */
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+}
+.navbar li {
+  margin-left: 1.5rem;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  padding: 0rem 5rem;
+  background-color: #fff;
+}
+/* description */
+
+.descriptionSection {
+  background-color: #727375;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 7rem 0;
+}
+.descriptionSection h1 {
+  font-size: 42px;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.descriptionSection h3 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 3rem;
+}
+.roadmap h1 {
+  font-size: 68px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 2rem;
+  text-align: center;
+}
+.roadmap {
+  padding: 5rem;
+}
+.innerCircle {
+  top: 130px;
+}
+.stats img {
+  margin: 10px;
+}
+.stats h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  margin: 0;
+}
+@media (min-width: 1200px) {
+  .navbarPagesList {
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .buttonDesign {
+    padding: 0.5rem 1rem;
+  }
+  .navbar {
+    padding: 1rem;
+  }
+  .navbar li {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+  }
+  .descriptionSection {
+    padding: 3rem 0;
+  }
+  .descriptionSection h1 {
+    font-size: 5vw;
+    text-decoration: underline;
+    font-weight: 700;
+  }
+  .descriptionSection h3 {
+    font-size: 4vw;
+    font-weight: 400;
+    line-height: 5vw;
+  }
+  .roadmap h1 {
+    font-size: 10vw;
+    text-align: left;
+    padding: 1rem;
+  }
+  .roadmap {
+    padding: 1vw 1vw;
+  }
+
+  .innerCircle {
+    top: 14vw;
+    width: 25%;
+  }
+  .outerCircle {
+    width: 70%;
+  }
+}
