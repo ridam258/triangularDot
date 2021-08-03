@@ -127,6 +127,105 @@
         </div>
       </div>
     </nav>
+    <!-- CAROUSEL -->
+    <section class="carouselSection">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              style="width: 100%; height: 100vh; background-color: white"
+            ></div>
+          </div>
+          <div class="carousel-item">
+            <div
+              style="width: 100%; height: 100vh; background-color: white"
+            ></div>
+          </div>
+          <div class="carousel-item">
+            <div
+              style="width: 100%; height: 100vh; background-color: white"
+            ></div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="carouselContent">
+        <h3>
+          Your brand | Visible |Decade old <br />
+          Integrated Marketing Communications <br />
+          Company ( See our brand's journey)
+        </h3>
+      </div>
+      <div class="carouselForm">
+        <form>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="What do we call you"
+          />
+          <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="What's your email"
+          />
+          <br />
+          <input
+            type="number"
+            name="number"
+            id="number"
+            placeholder="Your contact number"
+          />
+          <br />
+          <button class="buttonDesign">Get a free quote</button>
+        </form>
+      </div>
+    </section>
 
     <!-- Description -->
 
@@ -149,7 +248,7 @@
       <div class="timeline">
         <div class="container left">
           <div class="content">
-            <h2 style="color: orangered">Step 1</h2>
+            <h2 style="color: #ec393a">Step 1</h2>
             <p>
               Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
               admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
@@ -160,7 +259,7 @@
         </div>
         <div class="container right">
           <div class="content">
-            <h2 style="color: orangered">Step 2</h2>
+            <h2 style="color: #ec393a">Step 2</h2>
             <p>
               Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
               admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
@@ -171,7 +270,7 @@
         </div>
         <div class="container left">
           <div class="content">
-            <h2 style="color: orangered">Step 3</h2>
+            <h2 style="color: #ec393a">Step 3</h2>
             <p>
               Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
               admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
@@ -182,7 +281,7 @@
         </div>
         <div class="container right">
           <div class="content">
-            <h2 style="color: orangered">Step 4</h2>
+            <h2 style="color: #ec393a">Step 4</h2>
             <p>
               Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
               admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
@@ -221,35 +320,99 @@
     <section class="stats">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-3 d-flex align-items-center justify-content-center">
-            <img class="align-self-start" src="./assets/stats1.png" alt="" />
-            <div>
-              <h1>10+</h1>
-              <p>years in business</p>
+          <div class="col-6 d-flex justify-content-around">
+            <div class="col-3 d-flex align-items-center justify-content-center">
+              <img class="align-self-start" src="./assets/stats1.png" alt="" />
+              <div>
+                <h1>10+</h1>
+                <p>years in business</p>
+              </div>
+            </div>
+            <div class="col-3 d-flex align-items-center justify-content-center">
+              <img class="align-self-start" src="./assets/stats2.png" alt="" />
+              <div>
+                <h1>100+</h1>
+                <p>years in business</p>
+              </div>
             </div>
           </div>
-          <div class="col-3 d-flex align-items-center justify-content-center">
-            <img class="align-self-start" src="./assets/stats2.png" alt="" />
-            <div>
-              <h1>100+</h1>
-              <p>years in business</p>
+          <div class="col-6 d-flex justify-content-around">
+            <div class="col-3 d-flex align-items-center justify-content-center">
+              <img class="align-self-start" src="./assets/stats3.png" alt="" />
+              <div>
+                <h1>500+</h1>
+                <p>years in business</p>
+              </div>
             </div>
-          </div>
-          <div class="col-3 d-flex align-items-center justify-content-center">
-            <img class="align-self-start" src="./assets/stats3.png" alt="" />
-            <div>
-              <h1>500+</h1>
-              <p>years in business</p>
-            </div>
-          </div>
-          <div class="col-3 d-flex align-items-center justify-content-center">
-            <img class="align-self-start" src="./assets/stats4.png" alt="" />
-            <div>
-              <h1>7800+</h1>
-              <p>years in business</p>
+            <div class="col-3 d-flex align-items-center justify-content-center">
+              <img class="align-self-start" src="./assets/stats4.png" alt="" />
+              <div>
+                <h1>7800+</h1>
+                <p>years in business</p>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- quote -->
+    <section class="quote">
+      <div class="quoteHead">
+        <h1>Quote</h1>
+        <div class="d-flex justify-content-center">
+          <img class="img1 align-self-start" src="./assets/quote1.png" alt="" />
+          <p>
+            If you are looking at blank cassettes on the web, you may be very
+            confused at the difference in price. You may see some for as low as
+            $.17 each. You may be saying to yourself.
+          </p>
+          <img class="img2 align-self-end" src="./assets/quote2.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- map -->
+    <section class="contact d-flex">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235527.4544704166!2d75.72376328903204!3d22.72391173107205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1627981982801!5m2!1sen!2sin"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        class="map"
+      ></iframe>
+      <div class="contactRight">
+        <h1>Contact Us</h1>
+        <p>Now, if you are interested in being the best player.</p>
+        <form class="contactForm">
+          <div class="nameEmail">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="What do we call you?"
+            />
+            <input
+              type="email"
+              placeholder="What’s Your E-mail ID?"
+              name="email"
+              id="email"
+            />
+          </div>
+          <div class="contactNumber">
+            <input type="number" placeholder="Drop your contact number" />
+          </div>
+          <div class="feedback">
+            <textarea
+              name="requirements"
+              id="requirements"
+              placeholder="Tell us a story, share your requirements!"
+            ></textarea>
+          </div>
+          <button style="width: 84.8%; font-size: 1.5rem" class="buttonDesign">
+            Connect with us
+          </button>
+        </form>
       </div>
     </section>
     <!-- scripts -->
