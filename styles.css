@@ -15,11 +15,7 @@
   padding: 0rem 5rem;
   background-color: #fff;
 }
-.carouselSection {
-  /* position: absolute;
-  width: 100%;
-  height: 100vh; */
-}
+
 .carousel-indicators [data-bs-target] {
   width: 15px;
   height: 15px;
@@ -45,18 +41,19 @@
   font-size: 2vw;
 }
 .carouselContent {
-  position: relative;
+  position: absolute;
   bottom: 300px;
   left: 10vw;
+  display: flex;
 }
 .carouselForm {
   background-color: lightgray;
-  padding: 1rem;
+  padding: 2rem;
   display: inline-block;
   /* width: 30%; */
-  position: relative;
-  bottom: 500px;
-  left: 70vw;
+  position: absolute;
+  bottom: 250px;
+  left: 59vw;
 }
 .carouselForm input {
   margin: 10px 0;
@@ -208,6 +205,28 @@
   .navbar li {
     margin-left: 1rem;
     margin-top: 0.5rem;
+  }
+  .carouselContent h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .carouselContent {
+    justify-content: center;
+    position: initial;
+  }
+  .carouselForm {
+    padding: 1rem;
+    position: initial;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+  }
+  .carouselForm form {
+    background-color: lightgray;
+    padding: 2rem;
+  }
+  .carouselForm input {
+    margin: 10px 0;
   }
   .descriptionSection {
     padding: 3rem 0;
