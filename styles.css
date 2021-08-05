@@ -1,3 +1,11 @@
+@font-face {
+  font-family: gilroyLight;
+  src: url(./assets/Gilroy-Light.otf);
+}
+@font-face {
+  font-family: gilBold;
+  src: url(./assets/Gilroy-ExtraBold.otf);
+}
 .buttonDesign {
   background-color: #ec393a;
   color: white;
@@ -33,30 +41,22 @@
 .carousel-control-prev-icon {
   background-image: url(./assets/prevIcon.png);
 }
-
-.carouselContent h3 {
-  /* width: 30%; */
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400;
-  font-size: 2vw;
+.carouselSection {
+  position: relative;
+  font-family: gilroyLight;
+  color: white;
 }
 .carouselContent {
   position: absolute;
-  bottom: 300px;
-  left: 10vw;
-  display: flex;
+  top: 10vw;
+  left: 11vw;
 }
-.carouselForm {
-  background-color: lightgray;
-  padding: 2rem;
-  display: inline-block;
-  /* width: 30%; */
-  position: absolute;
-  bottom: 250px;
-  left: 59vw;
+.carouselContent h1 {
+  font-family: gilBold;
+  font-size: 5vw;
 }
-.carouselForm input {
-  margin: 10px 0;
+.carouselContent h4 {
+  font-size: 2.3vw;
 }
 /* description */
 
@@ -70,17 +70,17 @@
   padding: 7rem 0;
 }
 .descriptionSection h1 {
-  font-size: 42px;
+  font-size: 35px;
   text-decoration: underline;
   font-weight: 700;
 }
 .descriptionSection h3 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
-  line-height: 3rem;
+  line-height: 2.8rem;
 }
 .roadmap h1 {
-  font-size: 68px;
+  font-size: 60px;
   font-family: "Source Sans Pro", sans-serif;
   padding: 2rem;
   text-align: center;
@@ -97,7 +97,7 @@
 
 .stats h1 {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 48;
+  font-size: 40;
   font-weight: 400;
   margin: 0;
 }
@@ -111,16 +111,12 @@
 }
 
 .quoteHead {
-  /* position: absolute; */
-  /* display: flex; */
-  /* text-align: center; */
   width: 600px;
 }
 .quoteHead p {
   font-style: italic;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 24px;
-  /* padding: 2rem; */
 }
 .quoteHead h1 {
   font-family: "Source Sans Pro", sans-serif;
@@ -171,10 +167,7 @@
 .contactRight {
   padding: 2rem;
 }
-.map {
-  height: 700px;
-  width: 50%;
-}
+
 .contact {
   padding: 5rem 0;
 }
@@ -190,6 +183,10 @@
 .footer h4 {
   margin-bottom: 15px;
 }
+.map {
+  height: 200px;
+  width: 200px;
+}
 @media (min-width: 1200px) {
   .navbarPagesList {
     align-items: center;
@@ -200,9 +197,7 @@
     flex-direction: column;
     align-items: center;
   }
-  .map {
-    width: 80%;
-  }
+
   .contactRight {
     width: 80%;
   }
@@ -238,28 +233,15 @@
     margin-left: 1rem;
     margin-top: 0.5rem;
   }
-  .carouselContent h3 {
-    font-size: 16px;
-    text-align: center;
+
+  .carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    margin: 0 3 px;
+    background-color: rgb(231, 230, 230);
+    border-radius: 100%;
   }
-  .carouselContent {
-    justify-content: center;
-    position: initial;
-  }
-  .carouselForm {
-    padding: 1rem;
-    position: initial;
-    display: flex;
-    justify-content: center;
-    background-color: #fff;
-  }
-  .carouselForm form {
-    background-color: lightgray;
-    padding: 2rem;
-  }
-  .carouselForm input {
-    margin: 10px 0;
-  }
+
   .descriptionSection {
     padding: 3rem 0;
   }
@@ -311,9 +293,7 @@
   .quoteHead {
     width: 290px;
   }
-  .map {
-    width: 100%;
-  }
+
   .contactRight {
     width: 100%;
   }
@@ -358,5 +338,9 @@
   }
   .bottom p {
     font-size: 2.5vw;
+  }
+  .map {
+    height: 100px;
+    width: 100px;
   }
 }
