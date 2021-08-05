@@ -167,7 +167,7 @@
   margin-right: 10px;
 }
 .contactRight {
-  width: 50%;
+  /* width: 50%; */
   text-align: center;
 }
 .nameEmail {
@@ -190,13 +190,13 @@
   width: 100%;
 }
 .contactNumber input {
-  width: 84.8%;
+  width: 88%;
   padding: 15px;
 }
 .feedback textarea {
   resize: none;
-  height: 150px;
-  width: 84.8%;
+  height: 100px;
+  width: 88%;
   margin: 10px 15px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   border: 1px solid gray;
@@ -205,16 +205,16 @@
   padding: 2rem;
 }
 
-.contact {
+/* .contact {
   padding: 5rem 0;
-}
+} */
 .contactButton {
-  width: 84.8%;
+  width: 88%;
   font-size: 1.5rem;
 }
 .footer {
-  background-color: #3c3c3c;
-  color: white;
+  /* background-color: #3c3c3c; */
+  color: black;
   padding: 2rem 2rem 1rem;
 }
 .footer img {
@@ -225,8 +225,23 @@
   margin-bottom: 15px;
 }
 .map {
-  height: 200px;
-  width: 200px;
+  /* height:; */
+  width: 100%;
+  height: 400px;
+}
+.lastSection {
+  position: relative;
+}
+.contact {
+  width: 60%;
+  background-color: #fff;
+}
+.absoluteForm {
+  position: absolute;
+  width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  top: 32vh;
+  left: 15vw;
 }
 @media (min-width: 1200px) {
   .navbarPagesList {
