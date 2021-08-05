@@ -48,39 +48,36 @@
 }
 .carouselContent {
   position: absolute;
-  top: 10vw;
+  top: 25vh;
   left: 11vw;
 }
 .carouselContent h1 {
   font-family: gilBold;
-  font-size: 5vw;
+  font-size: 6vw;
 }
 .carouselContent h4 {
-  font-size: 2.3vw;
+  font-size: 3vw;
 }
 /* description */
 
 .descriptionSection {
-  background-color: #727375;
+  background-color: #ec393a;
   color: white;
   font-family: "Source Sans Pro", sans-serif;
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 7rem 0;
+  padding: 4rem 0;
+  font-style: italic;
 }
-.descriptionSection h1 {
-  font-size: 35px;
-  text-decoration: underline;
-  font-weight: 700;
-}
+
 .descriptionSection h3 {
   font-size: 25px;
   font-weight: 400;
   line-height: 2.8rem;
 }
 .roadmap h1 {
-  font-size: 60px;
+  font-size: 48px;
   font-family: "Source Sans Pro", sans-serif;
   padding: 2rem;
   text-align: center;
@@ -112,6 +109,7 @@
 
 .quoteHead {
   width: 600px;
+  position: relative;
 }
 .quoteHead p {
   font-style: italic;
@@ -130,6 +128,36 @@
   justify-content: center;
   padding: 5rem 0;
 }
+.leftRight {
+  position: absolute;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  height: 110%;
+  width: 105%;
+  left: -10px;
+  top: 14%;
+}
+.topLeft {
+  border-top: 2px solid black;
+  height: 110%;
+  position: absolute;
+  top: 14%;
+  left: -10px;
+  width: 40%;
+  height: 110%;
+}
+.topRight {
+  border-top: 2px solid black;
+  height: 110%;
+  position: absolute;
+  top: 14%;
+  right: -20px;
+  width: 42%;
+  height: 110%;
+}
 .img1 {
   margin-right: 10px;
 }
@@ -139,6 +167,10 @@
 }
 .nameEmail {
   width: 100%;
+}
+.contactRight h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 48px;
 }
 .contactRight input {
   height: 40px;
@@ -158,7 +190,7 @@
 }
 .feedback textarea {
   resize: none;
-  height: 300px;
+  height: 150px;
   width: 84.8%;
   margin: 10px 15px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -171,10 +203,14 @@
 .contact {
   padding: 5rem 0;
 }
+.contactButton {
+  width: 84.8%;
+  font-size: 1.5rem;
+}
 .footer {
   background-color: #3c3c3c;
   color: white;
-  padding: 5rem 5rem 2rem;
+  padding: 2rem 2rem 1rem;
 }
 .footer img {
   margin: 5px;
@@ -256,9 +292,12 @@
     line-height: 5vw;
   }
   .roadmap h1 {
-    font-size: 10vw;
+    font-size: 24px;
     text-align: left;
     padding: 1rem;
+  }
+  .roadmap p {
+    font-size: 12px;
   }
   .roadmap {
     padding: 1vw 1vw;
@@ -293,7 +332,18 @@
   .quoteHead {
     width: 290px;
   }
-
+  .topRight {
+    height: 110%;
+    top: 10%;
+    width: 35%;
+    right: -3px;
+  }
+  .leftRight {
+    top: 10%;
+  }
+  .topLeft {
+    top: 10%;
+  }
   .contactRight {
     width: 100%;
   }
@@ -314,10 +364,19 @@
   .contactRight {
     padding: 2rem 0;
   }
+  .contactRight p {
+    font-size: 12px;
+  }
+  .contactButton {
+    font-size: 1rem;
+  }
+  .contactRight h1 {
+    font-size: 24px;
+  }
   .footer h5,
   .footer h4 {
     margin-bottom: 10px;
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
   .footer p {
     margin: 5px 0;
@@ -334,7 +393,7 @@
   }
 
   .footer p {
-    font-size: 1.7vw;
+    font-size: 1.3vw;
   }
   .bottom p {
     font-size: 2.5vw;

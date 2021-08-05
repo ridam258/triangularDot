@@ -157,12 +157,20 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div>
-              <img style="width: 100%" src="./assets/carousel2.jpeg" alt="" />
+              <img
+                style="width: 100%; height: 100vh"
+                src="./assets/carousel2.jpeg"
+                alt=""
+              />
             </div>
           </div>
           <div class="carousel-item">
             <div>
-              <img style="width: 100%" src="./assets/carousel3.jpeg" alt="" />
+              <img
+                style="width: 100%; height: 100vh"
+                src="./assets/carousel3.jpeg"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -198,7 +206,6 @@
 
     <section class="descriptionSection">
       <div>
-        <h1>Description</h1>
         <h3>
           Triangular Dots helps you define the right blend of <br />
           integrated marketing solutions to overcome the <br />
@@ -314,6 +321,9 @@
           </p>
           <img class="img2 align-self-end" src="./assets/quote2.png" alt="" />
         </div>
+        <div class="leftRight"></div>
+        <div class="topLeft"></div>
+        <div class="topRight"></div>
       </div>
     </section>
 
@@ -347,15 +357,22 @@
               placeholder="Tell us a story, share your requirements!"
             ></textarea>
           </div>
-          <button style="width: 84.8%; font-size: 1.5rem" class="buttonDesign">
-            Connect with us
-          </button>
+          <button class="buttonDesign contactButton">Connect with us</button>
         </form>
       </div>
     </section>
     <!-- footer -->
     <section class="footer">
       <div class="d-flex justify-content-center">
+        <div style="flex: 20%" class="d-flex justify-content-center">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235527.4544704166!2d75.72376328903204!3d22.72391173107205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1628144183552!5m2!1sen!2sin"
+            class="map"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
         <div style="flex: 30%" class="d-flex justify-content-center">
           <div>
             <h4>About us</h4>
@@ -366,10 +383,9 @@
               malesuada eros habitasse a. Aliquet <br />
               varius
             </p>
-            <img class="downLogo" src="./assets/agencyLogo2.png" alt="" />
           </div>
         </div>
-        <div style="flex: 22%" class="d-flex justify-content-center">
+        <div style="flex: 15%" class="d-flex justify-content-center">
           <div>
             <h5>Useful Links</h5>
             <p>Home</p>
@@ -377,7 +393,7 @@
             <p>Services</p>
           </div>
         </div>
-        <div style="flex: 22%" class="d-flex justify-content-center">
+        <div style="flex: 15%" class="d-flex justify-content-center">
           <div>
             <h5>Support</h5>
             <p>Tech Support</p>
@@ -385,7 +401,7 @@
             <p>Marketing</p>
           </div>
         </div>
-        <div style="flex: 26%" class="d-flex justify-content-center">
+        <div style="flex: 20%" class="d-flex justify-content-center">
           <div class="follow" style="text-align: center">
             <h5>Follow us</h5>
             <div class="d-flex justify-content-center">
@@ -396,21 +412,16 @@
               <img src="./assets/instaIcon.png" alt="" />
               <img src="./assets/youtubeIcon.png" alt="" />
             </div>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235527.4544704166!2d75.72376328903204!3d22.72391173107205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1628144183552!5m2!1sen!2sin"
-              class="map"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-            ></iframe>
           </div>
         </div>
       </div>
-      <div class="d-flex justify-content-center my-3">
+      <div class="d-flex justify-content-between mt-3 px-4">
+        <img class="downLogo" src="./assets/agencyLogo2.png" alt="" />
+
         <div class="d-flex bottom">
-          <p class="mx-3">Terms</p>
-          <p class="mx-3">Privacy</p>
-          <p class="mx-3">Security</p>
+          <p class="mx-2">Terms</p>
+          <p class="mx-2">Privacy</p>
+          <p class="mx-2">Security</p>
         </div>
       </div>
     </section>
