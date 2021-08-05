@@ -65,7 +65,7 @@
 /* description */
 
 .descriptionSection {
-  margin: 5rem 0;
+  margin: 5rem 0 0;
   background-color: #ec393a;
   color: white;
   font-family: "Source Sans Pro", sans-serif;
@@ -133,7 +133,7 @@
   justify-content: center;
   padding: 5rem 0;
 }
-.leftRight {
+/* .leftRight {
   position: absolute;
   border-left: 2px solid black;
   border-right: 2px solid black;
@@ -162,7 +162,7 @@
   right: -20px;
   width: 42%;
   height: 110%;
-}
+} */
 .img1 {
   margin-right: 10px;
 }
@@ -337,7 +337,7 @@
   .quoteHead {
     width: 290px;
   }
-  .topRight {
+  /* .topRight {
     height: 110%;
     top: 10%;
     width: 35%;
@@ -348,7 +348,7 @@
   }
   .topLeft {
     top: 10%;
-  }
+  } */
   .contactRight {
     width: 100%;
   }

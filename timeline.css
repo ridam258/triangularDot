@@ -2,17 +2,21 @@
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  background-image: url(./assets/stepBackground.jpg);
-  background-size: cover;
+
+  width: 50%;
   /* backdrop-filter: blur(15px); */
 }
-
+.roadmap {
+  background-image: url(./assets/stepBackground.jpeg);
+  background-size: cover;
+  background-color: black;
+}
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
   content: "";
   position: absolute;
   width: 6px;
-  background-color: #6c6c6c;
+  background-color: white;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -39,7 +43,7 @@
   height: 20px;
   right: -10px;
   background-color: #ec393a;
-  top: 35px;
+  top: 25px;
   z-index: 1;
 }
 
@@ -51,7 +55,7 @@
 
 /* Place the container to the right */
 .right {
-  left: 50.5%;
+  left: 50.8%;
 }
 
 /* Add arrows to the left container (pointing right) */
@@ -65,7 +69,7 @@
 
 /* The actual content */
 .content {
-  padding: 20px 30px;
+  padding: 0px 30px;
   /* background-color: white; */
   position: relative;
   border-radius: 6px;
