@@ -31,6 +31,10 @@
   background-color: rgb(231, 230, 230);
   border-radius: 100%;
 }
+.carousel-indicators {
+  position: absolute;
+  bottom: -70px;
+}
 .carousel-indicators .active {
   border: 2px solid #ec393a;
 }
@@ -61,6 +65,7 @@
 /* description */
 
 .descriptionSection {
+  margin: 5rem 0;
   background-color: #ec393a;
   color: white;
   font-family: "Source Sans Pro", sans-serif;
@@ -83,7 +88,7 @@
   text-align: center;
 }
 .roadmap {
-  padding: 5rem;
+  padding: 3rem 5rem;
 }
 .innerCircle {
   top: 130px;

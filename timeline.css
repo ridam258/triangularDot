@@ -2,6 +2,9 @@
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  background-image: url(./assets/stepBackground.jpg);
+  background-size: cover;
+  /* backdrop-filter: blur(15px); */
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -23,8 +26,8 @@
   background-color: transparent;
   width: 50%;
   margin: 0;
-  background-image: url(./assets/stepBackground.jpg);
-  background-size: cover;
+  /* background-image: url(./assets/stepBackground.jpg);
+  background-size: cover; */
   color: white;
 }
 
@@ -48,7 +51,7 @@
 
 /* Place the container to the right */
 .right {
-  left: 50%;
+  left: 50.5%;
 }
 
 /* Add arrows to the left container (pointing right) */
