@@ -66,7 +66,7 @@
 
 .descriptionSection {
   margin: 5rem 0 0;
-  background-color: #ec393a;
+  background-color: #0b1e33;
   color: white;
   font-family: "Source Sans Pro", sans-serif;
   display: flex;
@@ -101,8 +101,7 @@
 .stats h1 {
   font-size: 48px;
   font-family: "Source Sans Pro", sans-serif;
-  padding: 2rem;
-  text-align: center;
+  width: 120px;
 }
 /* .stats p {
   font-size: 1.5vw;
@@ -150,14 +149,7 @@
   width: 100%;
   margin: 0 2rem;
 }
-/* .slider::-webkit-scrollbar {
-  width: 10px;
-  border: 1px;
-}
-.slider::-webkit-scrollbar-track {
-  color: red;
-  height: 10px;
-} */
+
 .services {
   background-image: url(./assets/serviceBg.jpeg);
   background-size: cover;
@@ -169,36 +161,12 @@
   margin: 2rem;
   text-align: center;
 }
-/* .leftRight {
-  position: absolute;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
-    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-  height: 110%;
-  width: 105%;
-  left: -10px;
-  top: 14%;
+.servicesTriangleSection div {
+  margin: 2rem 0;
 }
-.topLeft {
-  border-top: 2px solid black;
-  height: 110%;
-  position: absolute;
-  top: 14%;
-  left: -10px;
-  width: 40%;
-  height: 110%;
+.servicesTriangleSection img {
+  padding: 1rem;
 }
-.topRight {
-  border-top: 2px solid black;
-  height: 110%;
-  position: absolute;
-  top: 14%;
-  right: -20px;
-  width: 42%;
-  height: 110%;
-} */
 .img1 {
   margin-right: 10px;
 }
@@ -296,13 +264,7 @@
 .carouselForm button {
   margin: 0 1rem;
 }
-/* .carouselForm {
-  display: flex;
-  position: absolute;
-  top: 20vh;
-  width: 20%;
-  right: 10vw;
-} */
+
 .carouselForm {
   margin: 4rem 2rem 0;
   display: flex;
@@ -417,18 +379,7 @@
   .quoteHead {
     width: 290px;
   }
-  /* .topRight {
-    height: 110%;
-    top: 10%;
-    width: 35%;
-    right: -3px;
-  }
-  .leftRight {
-    top: 10%;
-  }
-  .topLeft {
-    top: 10%;
-  } */
+
   .contactRight {
     width: 100%;
   }
