@@ -133,22 +133,6 @@
   justify-content: center;
   padding: 5rem 0;
 }
-.slider {
-  /* width: 300px; */
-  /* height: 300px; */
-  display: flex;
-  overflow-x: auto;
-  width: 80%;
-}
-.slider .slide {
-  width: 200px;
-  flex-shrink: 0;
-  height: 100%;
-}
-.slider .slide img {
-  width: 100%;
-  margin: 0 2rem;
-}
 
 .services {
   background-image: url(./assets/serviceBg.jpeg);
@@ -165,7 +149,9 @@
   margin: 2rem 0;
 }
 .servicesTriangleSection img {
-  padding: 1rem;
+  padding: 0 1rem;
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .img1 {
   margin-right: 10px;
@@ -269,6 +255,29 @@
   margin: 4rem 2rem 0;
   display: flex;
   justify-content: center;
+}
+.slick-next:before,
+.slick-prev:before {
+  color: gray;
+  opacity: 1;
+}
+.slick-next {
+  right: 0;
+}
+.slick-prev {
+  left: 0;
+}
+.slider {
+  padding: 0 1rem;
+  width: 70%;
+  text-align: center;
+}
+.logosSlider {
+  margin: 3rem 0;
+}
+.slick-dots li {
+  display: none;
+  width: 98%;
 }
 @media (min-width: 1200px) {
   .navbarPagesList {

@@ -1,0 +1,62 @@
+.aboutFirst .col-6 {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col-6 div {
+  width: 80%;
+}
+.aboutFirst h5 {
+  margin-top: 3rem;
+}
+.aboutDescription {
+  background-color: #0b1e33;
+  color: white;
+}
+.team h1 {
+  font-size: 48px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 2rem;
+  text-align: center;
+}
+.team div {
+  margin: 4rem 0;
+}
+.logosSlider {
+  margin: 5rem 0;
+}
+.addressRight {
+  padding: 5rem;
+  width: 50%;
+}
+
+.mapAbout {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .team div {
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .team img {
+    width: 80%;
+    margin: 2rem auto;
+  }
+  .logosSlider {
+    margin: 2rem 0;
+  }
+  .addressFlex {
+    flex-direction: column;
+  }
+  .addressRight {
+    padding: 5rem;
+    width: 100%;
+  }
+  .mapAbout {
+    width: 100%;
+    padding: 0 5rem;
+    height: 300px;
+  }
+}

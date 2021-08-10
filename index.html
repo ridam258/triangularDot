@@ -25,6 +25,20 @@
       href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="timeline.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -57,7 +71,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
+              <a class="nav-link" href="about.html">About us</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -255,65 +269,72 @@
     </section>
 
     <!-- RoadMap -->
-    <section class="roadmap">
-      <div>
-        <h1 style="color: white">How we execute</h1>
-      </div>
-      <div class="timeline">
-        <div class="container left">
-          <div class="content">
-            <h2 style="color: #ec393a">Step 1</h2>
-            <p>
-              Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
-              admodum perfecto mnesarchum,
-            </p>
+    <div>
+      <section>
+        <div class="rt-container">
+          <div class="col-rt-12">
+            <div class="Scriptcontent">
+              <!-- partial:index.partial.html -->
+              <ul class="timeline">
+                <li
+                  data-year="2017"
+                  data-text="Lorem ipsum dolor sit amet, consectetur."
+                ></li>
+                <li
+                  data-year="2018"
+                  data-text="Lorem ipsum dolor sit amet, consectetur."
+                ></li>
+                <li
+                  data-year="2019"
+                  data-text="Lorem ipsum dolor sit amet, consectetur."
+                ></li>
+                <li
+                  data-year="2020"
+                  data-text="Lorem ipsum dolor sit amet, consectetur."
+                ></li>
+                <li
+                  data-year="2021"
+                  data-text="Lorem ipsum dolor sit amet, consectetur."
+                ></li>
+              </ul>
+              <!-- partial -->
+            </div>
           </div>
         </div>
-        <div class="container right">
-          <div class="content">
-            <h2 style="color: #ec393a">Step 2</h2>
-            <p>
-              Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
-              admodum perfecto mnesarchum,
-            </p>
-          </div>
-        </div>
-        <div class="container left">
-          <div class="content">
-            <h2 style="color: #ec393a">Step 3</h2>
-            <p>
-              Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
-              admodum perfecto mnesarchum,
-            </p>
-          </div>
-        </div>
-        <div class="container right">
-          <div class="content">
-            <h2 style="color: #ec393a">Step 4</h2>
-            <p>
-              Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
-              admodum perfecto mnesarchum,
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
+
     <!-- services -->
     <h1 class="ServiceHead">Our Services</h1>
-    <section class="services">
-      <div class="d-flex servicesTriangleSection justify-content-around">
-        <div>
-          <div class="d-flex justify-content-center">
+    <section class="services" style="height: 80vh">
+      <div
+        class="d-flex servicesTriangleSection justify-content-around"
+        style="height: 100%"
+      >
+        <div class="d-flex align-items-center">
+          <div
+            class="d-flex flex-column justify-content-between"
+            style="height: 100%"
+          >
             <img src="./assets/service1.png" alt="" />
-          </div>
-          <div class="d-flex justify-content-around">
             <img src="./assets/service2.png" alt="" />
-            <img src="./assets/service3.png" alt="" />
           </div>
-          <div class="d-flex justify-content-between">
-            <img src="./assets/service4.png" alt="" />
-            <img src="./assets/service5.png" alt="" />
+          <div
+            class="d-flex flex-column justify-content-between"
+            style="height: 80%"
+          >
+            <img src="./assets/service3.png" alt="" />
             <img src="./assets/service6.png" alt="" />
+          </div>
+          <div
+            class="d-flex flex-column justify-content-between"
+            style="height: 60%"
+          >
+            <img src="./assets/service5.png" alt="" />
+            <img src="./assets/service4.png" alt="" />
+          </div>
+          <div>
+            <img src="./assets/serviceArrow.png" style="width: 80px" alt="" />
           </div>
         </div>
         <div style="background-color: white; width: 300px" class="m-2"></div>
@@ -387,47 +408,46 @@
       </div>
     </section>
     <!-- slider logos -->
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center logosSlider">
       <div class="slider">
-        <div class="slide" id="slide-1">
-          <img src="./assets/logo1.png" alt="" />
+        <div>
+          <img style="width: 100%" src="./assets/logo1.png" alt="" />
         </div>
-        <div class="slide" id="slide-2">
-          <img src="./assets/logo2.png" alt="" />
+        <div>
+          <img style="width: 100%" src="./assets/logo2.png" alt="" />
         </div>
-        <div class="slide" id="slide-3">
-          <img src="./assets/logo3.png" alt="" />
+        <div>
+          <img style="width: 100%" src="./assets/logo3.png" alt="" />
         </div>
-        <div class="slide" id="slide-4">
-          <img src="./assets/logo4.png" alt="" />
+        <div>
+          <img style="width: 100%" src="./assets/logo4.png" alt="" />
         </div>
-        <div class="slide" id="slide-5">
-          <img src="./assets/logo5.png" alt="" />
+        <div>
+          <img style="width: 100%" src="./assets/logo5.png" alt="" />
         </div>
-        <div class="slide" id="slide-6">
-          <img src="./assets/logo6.png" alt="" />
+        <div>
+          <img style="width: 100%" src="./assets/logo6.png" alt="" />
         </div>
-        <div class="slide" id="slide-7">
-          <img src="./assets/logo7.png" alt="" />
+        <div>
+          <img style="width: 100%" src="./assets/logo7.png" alt="" />
         </div>
-        <div class="slide" id="slide-8">
-          <img src="./assets/logo8.png" alt="" />
+        <div>
+          <img style="width: 100%" src="./assets/logo8.png" alt="" />
         </div>
-        <div class="slide" id="slide-9">
-          <img src="./assets/logo9.png" alt="" />
+        <div>
+          <img style="width: 100%" src="./assets/logo9.png" alt="" />
         </div>
-        <div class="slide" id="slide-10">
-          <img src="./assets/logo10.png" alt="" />
+        <div>
+          <img style="width: 100%" src="./assets/logo10.png" alt="" />
         </div>
-        <div class="slide" id="slide-11">
-          <img src="./assets/logo11.png" alt="" />
+        <div>
+          <img style="width: 100%" src="./assets/logo11.png" alt="" />
         </div>
-        <div class="slide" id="slide-12">
-          <img src="./assets/logo12.png" alt="" />
+        <div>
+          <img style="width: 100%" src="./assets/logo12.png" alt="" />
         </div>
       </div>
     </div>
-
     <!-- map -->
 
     <!-- footer -->
@@ -541,5 +561,54 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".slider").slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    </script>
   </body>
 </html>
