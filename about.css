@@ -49,6 +49,15 @@
 .faq {
   margin: 1rem 0;
 }
+.contact {
+  width: 100%;
+}
+.contactRight {
+  width: 50%;
+}
+.nameEmail input {
+  /* width: 41.5%; */
+}
 @media (max-width: 768px) {
   .aboutFirst h4 {
     font-size: 3vw;
@@ -115,5 +124,8 @@
   }
   .faqs {
     margin: 1rem 0;
+  }
+  .contactRight {
+    width: 90%;
   }
 }

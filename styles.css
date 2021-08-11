@@ -162,32 +162,36 @@
 }
 .nameEmail {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .contactRight h1 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 48px;
 }
 .contactRight input {
+  display: block;
   height: 40px;
-  margin: 10px 15px;
+  margin: 10px 0;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   border: 1px solid gray;
 }
 .nameEmail input {
-  width: 40%;
+  width: 48%;
 }
 .contactNumber {
   width: 100%;
 }
 .contactNumber input {
-  width: 88%;
+  width: 100%;
   padding: 15px;
 }
 .feedback textarea {
+  display: block;
   resize: none;
   height: 100px;
-  width: 88%;
-  margin: 10px 15px;
+  width: 100%;
+  margin: 10px 0;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   border: 1px solid gray;
 }
@@ -199,7 +203,8 @@
   padding: 5rem 0;
 } */
 .contactButton {
-  width: 88%;
+  width: 100%;
+  margin: 10px 0px;
   font-size: 1.5rem;
 }
 .footer {
@@ -359,13 +364,6 @@
     padding: 1vw 1vw;
   }
 
-  .innerCircle {
-    top: 14vw;
-    width: 25%;
-  }
-  .outerCircle {
-    width: 70%;
-  }
   .row {
     flex-direction: column;
   }
@@ -389,7 +387,7 @@
     width: 290px;
   }
 
-  .contactRight {
+  /* .contactRight {
     width: 100%;
   }
   .contactRight input {
@@ -409,12 +407,14 @@
   .contactRight {
     padding: 2rem 0;
   }
-  .contactRight p {
-    font-size: 12px;
-  }
+   */
   .contactButton {
     font-size: 1rem;
   }
+  .contactRight p {
+    font-size: 12px;
+  }
+
   .contactRight h1 {
     font-size: 24px;
   }
