@@ -10,10 +10,7 @@
 .aboutFirst h5 {
   margin-top: 3rem;
 }
-.aboutDescription {
-  background-color: #0b1e33;
-  color: white;
-}
+
 .team h1 {
   font-size: 48px;
   font-family: "Source Sans Pro", sans-serif;
@@ -34,7 +31,42 @@
 .mapAbout {
   width: 50%;
 }
+.aboutFaqs {
+  padding: 8rem 3rem;
+  position: relative;
+}
+#faq-section {
+  position: absolute;
+  top: 17vw;
+  left: 45%;
+  width: 40%;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.faqs {
+  margin: 2rem 0;
+}
+.faq {
+  margin: 1rem 0;
+}
 @media (max-width: 768px) {
+  .aboutFirst h4 {
+    font-size: 3vw;
+  }
+  .aboutFirst h5 {
+    font-size: 2.5vw;
+    margin-top: 1rem;
+  }
+  .aboutFirst .col-6 {
+    padding: 1rem;
+  }
+  .descriptionSection h3 {
+    font-size: 3vw;
+  }
+  .team h1 {
+    font-size: 5vw;
+    padding: 0.5rem;
+  }
   .team div {
     flex-direction: column;
     width: 50%;
@@ -56,7 +88,32 @@
   }
   .mapAbout {
     width: 100%;
-    padding: 0 5rem;
+    padding: 0 1rem;
     height: 300px;
+  }
+
+  .addressRight {
+    padding: 1rem;
+    width: 100%;
+  }
+  .addressRight h4 {
+    font-size: 4vw;
+  }
+  .addressRight h5 {
+    font-size: 3.5vw;
+  }
+  .faqsBg {
+    display: none;
+  }
+  #faq-section {
+    position: initial;
+    color: black;
+    width: 100%;
+  }
+  .aboutFaqs {
+    padding: 5rem 1rem 2rem;
+  }
+  .faqs {
+    margin: 1rem 0;
   }
 }
