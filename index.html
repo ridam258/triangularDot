@@ -179,11 +179,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div>
-              <img
-                style="width: 100%; height: 100vh"
-                src="./assets/carousel1.jpeg"
-                alt=""
-              />
+              <img style="width: 100%" src="./assets/carousel1.jpeg" alt="" />
             </div>
           </div>
           <!-- <div class="carousel-item active">
@@ -197,20 +193,12 @@
           </div> -->
           <div class="carousel-item">
             <div>
-              <img
-                style="width: 100%; height: 100vh"
-                src="./assets/carousel3.jpeg"
-                alt=""
-              />
+              <img style="width: 100%" src="./assets/carousel3.jpeg" alt="" />
             </div>
           </div>
           <div class="carousel-item">
             <div>
-              <img
-                style="width: 100%; height: 100vh"
-                src="./assets/carousel4.jpeg"
-                alt=""
-              />
+              <img style="width: 100%" src="./assets/carousel4.jpeg" alt="" />
             </div>
           </div>
         </div>
@@ -271,11 +259,9 @@
     </section>
 
     <!-- RoadMap -->
-    <div class="ScriptTop">
+    <!-- <div class="ScriptTop">
       <div class="rt-container">
-        <div class="col-rt-4" id="float-right">
-          <!-- AD -->
-        </div>
+        <div class="col-rt-4" id="float-right"></div>
         <div class="col-rt-2">
           <ul>
             <li>
@@ -305,7 +291,6 @@
       <div class="rt-container">
         <div class="col-rt-12">
           <div class="Scriptcontent">
-            <!-- partial:index.partial.html -->
             <ul class="timeline">
               <li
                 data-year="2017"
@@ -328,14 +313,13 @@
                 data-text="Lorem ipsum dolor sit amet, consectetur."
               ></li>
             </ul>
-            <!-- partial -->
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- services -->
-    <h1 class="ServiceHead">Our Services</h1>
+    <!-- <h1 class="ServiceHead">Our Services</h1>
     <section class="services" style="height: 80vh">
       <div
         class="d-flex servicesTriangleSection justify-content-around"
@@ -369,42 +353,38 @@
         </div>
         <div style="background-color: white; width: 300px" class="m-2"></div>
       </div>
-    </section>
+    </section> -->
     <!-- stats -->
-    <section class="stats">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-6 d-flex justify-content-around">
-            <div class="col-3 d-flex align-items-center justify-content-center">
-              <img class="align-self-start" src="./assets/stats1.png" alt="" />
-              <div>
-                <h1>10+</h1>
-                <p>years in business</p>
-              </div>
-            </div>
-            <div class="col-3 d-flex align-items-center justify-content-center">
-              <img class="align-self-start" src="./assets/stats2.png" alt="" />
-              <div>
-                <h1>100+</h1>
-                <p>years in business</p>
-              </div>
-            </div>
+    <section class="stats d-flex justify-content-around">
+      <div class="d-flex justify-content-around innerStats">
+        <div class="d-flex justify-content-around">
+          <img src="./assets/stats1.png" alt="" />
+          <div>
+            <h1>10+</h1>
+            <p>Years in business</p>
           </div>
-          <div class="col-6 d-flex justify-content-around">
-            <div class="col-3 d-flex align-items-center justify-content-center">
-              <img class="align-self-start" src="./assets/stats3.png" alt="" />
-              <div>
-                <h1>500+</h1>
-                <p>years in business</p>
-              </div>
-            </div>
-            <div class="col-3 d-flex align-items-center justify-content-center">
-              <img class="align-self-start" src="./assets/stats4.png" alt="" />
-              <div>
-                <h1>7800+</h1>
-                <p>years in business</p>
-              </div>
-            </div>
+        </div>
+        <div class="d-flex">
+          <img src="./assets/stats2.png" alt="" />
+          <div>
+            <h1>100+</h1>
+            <p>Years in business</p>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-around innerStats">
+        <div class="d-flex">
+          <img src="./assets/stats3.png" alt="" />
+          <div>
+            <h1>500+</h1>
+            <p>Years in business</p>
+          </div>
+        </div>
+        <div class="d-flex">
+          <img src="./assets/stats4.png" alt="" />
+          <div>
+            <h1>7800+</h1>
+            <p>Years in business</p>
           </div>
         </div>
       </div>
@@ -414,27 +394,14 @@
     <section class="quote">
       <div class="quoteHead">
         <div class="d-flex justify-content-center">
-          <img
-            class="img1 align-self-start"
-            style="margin-top: -15px"
-            src="./assets/quote1.png"
-            alt=""
-          />
+          <img class="img1 align-self-start" src="./assets/quote1.png" alt="" />
           <p style="text-align: center; color: #ec393a">
             If you are looking at blank cassettes on the web, you may be very
             confused at the difference in price. You may see some for as low as
             $.17 each. You may be saying to yourself.
           </p>
-          <img
-            class="img2 align-self-end"
-            style="margin-left: -15px"
-            src="./assets/quote2.png"
-            alt=""
-          />
+          <img class="img2 align-self-end" src="./assets/quote2.png" alt="" />
         </div>
-        <div class="leftRight"></div>
-        <div class="topLeft"></div>
-        <div class="topRight"></div>
       </div>
     </section>
     <!-- slider logos -->
@@ -644,7 +611,7 @@
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 4,
+              slidesToShow: 3,
               slidesToScroll: 1,
               infinite: true,
               dots: true,
@@ -653,7 +620,7 @@
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 3,
+              slidesToShow: 2,
               slidesToScroll: 1,
             },
           },

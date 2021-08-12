@@ -38,7 +38,9 @@
 .carousel-indicators .active {
   border: 2px solid #ec393a;
 }
-
+.carousel-item img {
+  height: 100vh;
+}
 .carousel-control-next-icon {
   background-image: url(./assets/nextIcon.png);
 }
@@ -100,21 +102,20 @@
   padding: 5rem 0;
   background-color: rgba(156, 154, 154, 0.733);
 }
-
-.stats h1 {
-  font-size: 48px;
-  font-family: "Source Sans Pro", sans-serif;
-  width: 120px;
+.innerStats {
+  width: 50%;
 }
-/* .stats p {
-  font-size: 1.5vw;
-} */
 .stats img {
   width: 52px;
   height: 52px;
-  margin: 10px;
+  margin: 0.5rem 0.5rem 0;
 }
-
+.stats h1 {
+  font-size: 42px;
+}
+.stats p {
+  font-size: 20px;
+}
 .quoteHead {
   width: 600px;
   position: relative;
@@ -136,7 +137,12 @@
   justify-content: center;
   padding: 5rem 0;
 }
-
+.img1 {
+  margin-top: -15px;
+}
+.img2 {
+  margin-left: -15px;
+}
 .services {
   background-image: url(./assets/serviceBg.jpeg);
   background-size: cover;
@@ -254,6 +260,9 @@
   margin-bottom: 2px;
   font-size: 15px;
 }
+.footerBg img {
+  opacity: 0.8;
+}
 .map {
   /* height:; */
   /* width: 100%; */
@@ -289,9 +298,13 @@
   border: 1px solid lightgray;
   padding: 10px;
   border-radius: 15px;
+  display: block;
 }
 .carouselForm button {
   margin: 0 1rem;
+}
+.carouselForm form {
+  display: flex;
 }
 
 .carouselForm {
@@ -384,7 +397,15 @@
     background-color: rgb(231, 230, 230);
     border-radius: 100%;
   }
-
+  .carouselForm form {
+    flex-direction: column;
+  }
+  .carouselForm input {
+    margin-bottom: 1rem;
+  }
+  .carousel-item img {
+    height: initial;
+  }
   .descriptionSection {
     padding: 3rem 0;
   }
@@ -409,7 +430,25 @@
   .roadmap {
     padding: 1vw 1vw;
   }
-
+  .stats {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  .stats img {
+    width: 25px;
+    height: 25px;
+    margin: 0.5rem 0.5rem 0;
+  }
+  .stats h1 {
+    font-size: 20px;
+  }
+  .stats p {
+    font-size: 12px;
+  }
+  .innerStats {
+    width: initial;
+  }
   .row {
     flex-direction: column;
   }
@@ -423,8 +462,11 @@
     width: 5%;
     margin: 0 0 10px 10px;
   }
+  .quote {
+    padding: 1.5rem 0;
+  }
   .quoteHead p {
-    font-size: 16px;
+    font-size: 12px;
   }
   .quoteHead h1 {
     font-size: 24px;
@@ -496,5 +538,8 @@
   }
   .info h3 {
     font-size: 2vw;
+  }
+  .logosSlider {
+    margin: 2rem 0;
   }
 }
