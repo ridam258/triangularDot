@@ -90,6 +90,9 @@
 .roadmap {
   padding: 3rem 5rem;
 }
+.horizontal {
+  height: 500px;
+}
 .innerCircle {
   top: 130px;
 }
