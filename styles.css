@@ -169,12 +169,13 @@
 .info {
   position: absolute;
   background-color: white;
-  padding: 2rem 8rem 2rem 2rem;
+  padding: 2vw 7vw 2vw 2vw;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   top: 18%;
   right: 0%;
 }
+
 .info img {
   width: 20px;
   height: 20px;
@@ -185,6 +186,7 @@
 }
 .info h1 {
   padding: 1rem 0;
+  font-size: 2.4vw;
 }
 .nameEmail {
   width: 100%;
@@ -193,7 +195,7 @@
 }
 .contactRight h1 {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 48px;
+  font-size: 3.5vw;
 }
 .contactRight input {
   display: block;
@@ -210,7 +212,7 @@
 }
 .contactNumber input {
   width: 100%;
-  padding: 15px;
+  /* padding: 15px; */
 }
 .feedback textarea {
   display: block;
@@ -254,8 +256,9 @@
 }
 .map {
   /* height:; */
-  width: 100%;
+  /* width: 100%; */
   /* height: 100%; */
+  flex: 33%;
 }
 .lastSection {
   position: relative;
@@ -327,11 +330,14 @@
 @media (max-width: 1000px) {
   .contact {
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
   }
 
   .contactRight {
-    width: 80%;
+    /* width: 80%; */
+  }
+  .contactMap {
+    flex-direction: column;
   }
   .footer {
     padding: 2rem 2rem 1rem;
@@ -352,6 +358,11 @@
   .downLogo {
     width: 71px;
     height: 28px;
+  }
+  .map {
+    margin: 0 2rem;
+    height: 300px;
+    flex: auto;
   }
 }
 @media (max-width: 768px) {
@@ -422,14 +433,26 @@
     width: 290px;
   }
   .contactButton {
-    font-size: 1rem;
+    font-size: 1.5vw;
   }
   .contactRight p {
     font-size: 12px;
   }
-
+  .contactRight input {
+    height: 25px;
+    font-size: 1.5vw;
+    margin: 4px 0;
+  }
+  .feedback textarea {
+    height: 70px;
+    font-size: 1.5vw;
+    margin: 4px 0;
+  }
   .contactRight h1 {
     font-size: 24px;
+  }
+  .contactRight {
+    padding: 1.5rem;
   }
   .footer h5,
   .footer h4 {
@@ -456,8 +479,21 @@
   .bottom p {
     font-size: 2.5vw;
   }
+  .info {
+    top: 25%;
+    padding: 0 0.5rem;
+  }
+  .contact {
+    flex: auto;
+    margin: 0;
+  }
   .map {
-    height: 100px;
-    width: 100px;
+    margin: 0;
+  }
+  .contactForm {
+    width: 74%;
+  }
+  .info h3 {
+    font-size: 2vw;
   }
 }
