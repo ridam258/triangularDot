@@ -479,17 +479,77 @@
       </div>
     </div>
     <!-- map -->
-
-    <!-- footer -->
-    <div class="lastSection">
+    <section class="contactMap d-flex">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235527.4544704166!2d75.72376328903204!3d22.72391173107205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1628144183552!5m2!1sen!2sin"
         class="map"
-        style="border: 0"
+        style="border: 0; flex: 33%"
         allowfullscreen=""
         loading="lazy"
       ></iframe>
-      <section class="footer" style="margin-top: 20rem">
+      <section
+        class="contact d-flex justify-content-start"
+        style="flex: 67%; background-color: #ec393a"
+      >
+        <div class="contactRight" style="background-color: white">
+          <h1>Contact Us</h1>
+          <p>
+            Now, if you are interested in being <br />
+            the best player.
+          </p>
+          <form class="contactForm">
+            <div class="nameEmail">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="What do we call you?"
+              />
+              <input
+                type="email"
+                placeholder="What’s Your E-mail ID?"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contactNumber">
+              <input type="number" placeholder="Drop your contact number" />
+            </div>
+            <div class="feedback">
+              <textarea
+                name="requirements"
+                id="requirements"
+                placeholder="Tell us a story, share your requirements!"
+              ></textarea>
+            </div>
+            <button class="buttonDesign contactButton">Connect with us</button>
+          </form>
+          <div class="info">
+            <h1>Info</h1>
+            <div class="d-flex align-items-center my-2">
+              <img src="./assets/contactMail.png" alt="" />
+              <h3>dummy@gamil.com</h3>
+            </div>
+            <div class="d-flex align-items-center my-2">
+              <img src="./assets/contactPhone.png" alt="" />
+              <h3>dummy@gamil.com</h3>
+            </div>
+            <div class="d-flex align-items-center my-2">
+              <img src="./assets/contactOffice.png" alt="" />
+              <h3>dummy@gamil.com</h3>
+            </div>
+            <div class="d-flex align-items-center my-2">
+              <img src="./assets/contactClock.png" alt="" />
+              <h3>dummy@gamil.com</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- footer -->
+    <div class="lastSection">
+      <section class="footer" style="margin-top: 2rem; color: white">
         <div class="d-flex justify-content-center">
           <div style="flex: 30%" class="d-flex justify-content-center">
             <div>
@@ -533,9 +593,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex justify-content-between mt-3 px-4">
-          <img class="downLogo" src="./assets/agencyLogo.png" alt="" />
-
+        <div class="d-flex justify-content-center px-4">
           <div class="d-flex bottom">
             <p class="mx-2">Terms</p>
             <p class="mx-2">Privacy</p>
@@ -543,48 +601,7 @@
           </div>
         </div>
       </section>
-      <div class="d-flex absoluteForm">
-        <section class="contact d-flex justify-content-center">
-          <div class="contactRight">
-            <h1>Contact Us</h1>
-            <p>Now, if you are interested in being the best player.</p>
-            <form class="contactForm">
-              <div class="nameEmail">
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  placeholder="What do we call you?"
-                />
-                <input
-                  type="email"
-                  placeholder="What’s Your E-mail ID?"
-                  name="email"
-                  id="email"
-                />
-              </div>
-              <div class="contactNumber">
-                <input type="number" placeholder="Drop your contact number" />
-              </div>
-              <div class="feedback">
-                <textarea
-                  name="requirements"
-                  id="requirements"
-                  placeholder="Tell us a story, share your requirements!"
-                ></textarea>
-              </div>
-              <button class="buttonDesign contactButton">
-                Connect with us
-              </button>
-            </form>
-          </div>
-        </section>
-        <section style="background-color: #ec393a; width: 40%">
-          <div></div>
-        </section>
-      </div>
     </div>
-
     <!-- scripts -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -608,14 +625,14 @@
         dots: true,
         infinite: false,
         speed: 300,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 6,
+        slidesToScroll: 1,
         responsive: [
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
+              slidesToShow: 4,
+              slidesToScroll: 1,
               infinite: true,
               dots: true,
             },
@@ -623,12 +640,12 @@
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToShow: 3,
+              slidesToScroll: 1,
             },
           },
           {
-            breakpoint: 480,
+            breakpoint: 400,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,

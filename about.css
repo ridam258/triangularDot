@@ -16,11 +16,12 @@
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
 }
-.team div {
+.team .picContainer {
   margin: 2rem 0;
 }
 .team img {
   width: 175px;
+  margin-bottom: 15px;
 }
 .logosSlider {
   margin: 5rem 0;
@@ -80,7 +81,6 @@
   }
   .team div {
     flex-direction: column;
-    width: 50%;
     margin: 0 auto;
   }
   .team img {
