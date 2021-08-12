@@ -14,11 +14,13 @@
 .team h1 {
   font-size: 48px;
   font-family: "Source Sans Pro", sans-serif;
-  padding: 2rem;
   text-align: center;
 }
 .team div {
-  margin: 4rem 0;
+  margin: 2rem 0;
+}
+.team img {
+  width: 200px;
 }
 .logosSlider {
   margin: 5rem 0;

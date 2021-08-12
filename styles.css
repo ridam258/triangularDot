@@ -210,14 +210,20 @@
 .footer {
   /* background-color: #3c3c3c; */
   color: black;
-  padding: 2rem 2rem 1rem;
+  padding: 1rem 2rem;
 }
 .footer img {
-  margin: 5px;
+  margin: 2px;
+  width: 25px;
 }
 .footer h5,
 .footer h4 {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.footer p {
+  margin-bottom: 2px;
+  font-size: 10px;
 }
 .map {
   /* height:; */
@@ -238,12 +244,7 @@
   top: 32vh;
   left: 15vw;
 }
-/* .carouselForm form {
-  width: 15%;
-  width: 100%;
-  background-color: #fff;
-  padding: 1rem;
-} */
+
 .carouselForm input {
   margin: 0 1rem;
   height: 45px;
@@ -386,28 +387,6 @@
   .quoteHead {
     width: 290px;
   }
-
-  /* .contactRight {
-    width: 100%;
-  }
-  .contactRight input {
-    margin: 10px 5px;
-  }
-  .contact {
-    padding: 2rem 0;
-  }
-  .feedback textarea {
-    resize: none;
-    height: 200px;
-    width: 84.8%;
-    margin: 10px 15px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    border: 1px solid gray;
-  }
-  .contactRight {
-    padding: 2rem 0;
-  }
-   */
   .contactButton {
     font-size: 1rem;
   }
